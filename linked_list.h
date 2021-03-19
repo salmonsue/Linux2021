@@ -10,7 +10,7 @@ static inline void list_add_node_t(node_t **list, node_t *node_t) {
 
 static inline void list_concat(node_t **left, node_t *right) {
     while (*left)
-        LLL;
+        left = &((*left)->next);
     *left = right;
 }
 
