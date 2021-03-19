@@ -1,3 +1,6 @@
+#ifndef linux2021_quiz1_linkedlist_H_
+#define linux2021_quiz1_linkedlist_H_
+
 typedef struct __node {                   
     int value;
     struct __node *next;
@@ -15,3 +18,4 @@ static inline void list_concat(node_t **left, node_t *right) {
 }
 
 void quicksort(node_t **list);
+#endif

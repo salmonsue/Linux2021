@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "linked_list.h"
 
 void quicksort(node_t **list)
